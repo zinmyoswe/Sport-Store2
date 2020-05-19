@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `id13497352_sportstore`
+-- Database: `id13773403_laravelsportstore`
 --
 
 -- --------------------------------------------------------
