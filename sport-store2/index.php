@@ -127,7 +127,7 @@ h4{
           <div class="carousel-caption text-left">
             <h1 style="color: #000; font-weight: 600;">RUN FOR THE OCEANS</h1>
             <p style="color: #000;">It's time to take action against marine plastic pollution. Rally your <br>friends to join the movement.</p>
-            <p><a class="btn btn-lg btn-dark" href="{{route('shop.index')}}" role="button" style="margin-bottom: 160px">LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button" style="margin-bottom: 160px">LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
       </div>
@@ -139,8 +139,8 @@ h4{
             <h1 style="color: #000; font-weight: 600;">For Women,<br>Give Love & Thanks</h1>
                 
             <p style="color: #000;">Light up the night in new Nite Jogger colorways. Photo by Cole Younger.</p>
-            <p><a class="btn btn-lg btn-dark" href="{{route('shop.index')}}" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
-            <p><a class="btn btn-lg btn-dark" href="{{route('shop.index')}}" role="button" style="margin-bottom: 120px">VIEW MEMBER BENEFITS <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button" style="margin-bottom: 120px">VIEW MEMBER BENEFITS <i class="fa fa-arrow-right"></i></a></p>
         
           </div>
         </div>
@@ -153,7 +153,7 @@ h4{
       <div class="carousel-caption text-left">
             <h1>HEY WORLD!</h1>
             <p>Earth Day is Every Day, the new collection that respects and celebrates our planet.</p>
-            <p><a class="btn btn-lg btn-light" href="{{route('shop.index')}}" role="button">SHOP COLLECTION <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-light" href="product.php" role="button">SHOP COLLECTION <i class="fa fa-arrow-right"></i></a></p>
           </div>
       </div>
       <div class="carousel-item">
@@ -164,7 +164,7 @@ h4{
             <h1>KICK UP A STORM IN SHOX</h1>
             <p>The subversive Nike Shox R4 is making<br>
 waves in clean monochrome colourways.</p>
-            <p><a class="btn btn-lg btn-light" href="{{route('shop.index')}}" role="button" style="margin-bottom: 130px">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-light" href="product.php" role="button" style="margin-bottom: 130px">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
       </div>
@@ -192,7 +192,7 @@ waves in clean monochrome colourways.</p>
           <div class="carousel-caption">
             <h2>ULTRABOOST 19</h2>
             <p>Reboosted</p>
-            <p><a class="btn btn-lg btn-light" href="#" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-light" href="product.php" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
 
@@ -204,7 +204,7 @@ waves in clean monochrome colourways.</p>
           <div class="carousel-caption"">
             <h2>HOME OF CLASSICS</h2>
 
-            <p><a class="btn btn-lg btn-light" href="#" role="button">PREVIEW NOW <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-light" href="product.php" role="button">PREVIEW NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
         </div>
@@ -221,7 +221,7 @@ waves in clean monochrome colourways.</p>
                         <img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_pg_m_05?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
                           <div class="container">
                           <div class="carousel-caption">
-                            <h2 style="margin-bottom: 130px;"><a href="">Casual Shirts</a></h2>
+                            <h2 style="margin-bottom: 130px;"><a href="product.php">Casual Shirts</a></h2>
 
                           </div>
                         </div>
@@ -230,7 +230,7 @@ waves in clean monochrome colourways.</p>
                         <img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j09_polo?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
                           <div class="container">
                           <div class="carousel-caption">
-                            <h2 style="margin-bottom: 130px;"><a href="">Polo Shirts</a></h2>
+                            <h2 style="margin-bottom: 130px;"><a href="product.php">Polo Shirts</a></h2>
 
                           </div>
                         </div>
@@ -239,7 +239,7 @@ waves in clean monochrome colourways.</p>
                         <img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j10_shirt_m?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
                           <div class="container">
                           <div class="carousel-caption">
-                            <h2 style="margin-bottom: 130px;"><a href="">T-Shirts</a></h2>
+                            <h2 style="margin-bottom: 130px;"><a href="product.php">T-Shirts</a></h2>
 
                           </div>
                         </div>
@@ -248,7 +248,7 @@ waves in clean monochrome colourways.</p>
                         <img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j11_Chino?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
                           <div class="container">
                           <div class="carousel-caption">
-                            <h2 style="margin-bottom: 130px;"><a href="">Pants</a></h2>
+                            <h2 style="margin-bottom: 130px;"><a href="product.php">Pants</a></h2>
 
                           </div>
                         </div>
@@ -257,7 +257,7 @@ waves in clean monochrome colourways.</p>
                         <img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j12_ezy?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
                           <div class="container">
                           <div class="carousel-caption">
-                            <h2 style="margin-bottom: 130px;"><a href="">Jeans</a></h2>
+                            <h2 style="margin-bottom: 130px;"><a href="product.php">Jeans</a></h2>
 
                           </div>
                         </div>
@@ -266,7 +266,7 @@ waves in clean monochrome colourways.</p>
                         <img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j13_active?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
                           <div class="container">
                           <div class="carousel-caption">
-                            <h2 style="margin-bottom: 130px;"><a href="">Activewear</a></h2>
+                            <h2 style="margin-bottom: 130px;"><a href="product.php">Activewear</a></h2>
 
                           </div>
                         </div>
@@ -275,7 +275,7 @@ waves in clean monochrome colourways.</p>
                         <img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_cat_042419_j14_shorts_m?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
                           <div class="container">
                           <div class="carousel-caption">
-                            <h2 style="margin-bottom: 130px;"><a href="">Shorts</a></h2>
+                            <h2 style="margin-bottom: 130px;"><a href="product.php">Shorts</a></h2>
 
                           </div>
                         </div>
@@ -284,7 +284,7 @@ waves in clean monochrome colourways.</p>
                         <img src="https://uniqlo.scene7.com/is/image/UNIQLO/us_sp_ar_030719_v2_01?$jpgMQ$&wid=319" width="280" height="380" class="img_feature">
                           <div class="container">
                           <div class="carousel-caption">
-                            <h2 style="margin-bottom: 130px;"><a href="">AIRism Innerwear</a></h2>
+                            <h2 style="margin-bottom: 130px;"><a href="product.php">AIRism Innerwear</a></h2>
 
                           </div>
                         </div>
@@ -304,7 +304,7 @@ waves in clean monochrome colourways.</p>
           <div class="carousel-caption">
             <h2>MAXIMUM VERSATILITY</h2>
             <p>Three support levels, for any activity in and around the water.</p>
-            <p><a class="btn btn-lg btn-dark" href="#" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
         </div>
@@ -315,7 +315,7 @@ waves in clean monochrome colourways.</p>
             <h2>WORK IT OUTSIDE</h2>
             <p>Get inspired to bootcamp equipment-free in high support tights.</p>
 
-            <p><a class="btn btn-lg btn-dark" href="#" role="button">PREVIEW NOW <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button">PREVIEW NOW <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
         </div>
@@ -334,8 +334,8 @@ waves in clean monochrome colourways.</p>
           <div class="carousel-caption text-left" style="margin-bottom: 140px;">
             <h1>UNLOCK AGILITY</h1>
             <p>New Nemeziz 19 is exclusively available through adidas and selected retailers.</p>
-            <p><a class="btn btn-lg btn-dark" href="#" role="button">EXCLUSIVELY HERE <i class="fa fa-arrow-right"></i></a></p>
-             <p><a class="btn btn-lg btn-dark" href="#" role="button">EXPLORE <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-dark" href="product.php" role="button">EXCLUSIVELY HERE <i class="fa fa-arrow-right"></i></a></p>
+             <p><a class="btn btn-lg btn-dark" href="product.php" role="button">EXPLORE <i class="fa fa-arrow-right"></i></a></p>
           </div>
         </div>
       </div>
@@ -354,7 +354,7 @@ waves in clean monochrome colourways.</p>
             <h1 style="font-weight: bold;">DREAM FAST: THE NEW PEGASUS 36</h1>
             <p>Our most runner-approved shoe goes a step further to help you achieve your goals.<br>
 Lace up some all new innovations for everyday speed.</p>
-            <p><a class="btn btn-lg btn-link" href="#" role="button" style="color: #000;">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
+            <p><a class="btn btn-lg btn-link" href="product.php" role="button" style="color: #000;">SHOP NOW <i class="fa fa-arrow-right"></i></a></p>
 
           </div>
         </div>
@@ -374,7 +374,7 @@ Lace up some all new innovations for everyday speed.</p>
            <div class="container">
           <div class="carousel-caption">
 
-            <p><a class="btn btn-lg btn-light" href="#" role="button" style="border-radius: 20px; margin-right: 40px; margin-bottom: 25px;">Men's </a></p>
+            <p><a class="btn btn-lg btn-light" href="product.php" role="button" style="border-radius: 20px; margin-right: 40px; margin-bottom: 25px;">Men's </a></p>
           </div>
         </div>
          </div>
@@ -386,7 +386,7 @@ Lace up some all new innovations for everyday speed.</p>
              <div class="container">
           <div class="carousel-caption">
 
-            <p><a class="btn btn-lg btn-light" href="#" role="button" style="border-radius: 20px; margin-right: 40px; margin-bottom: 25px;">Women's </a></p>
+            <p><a class="btn btn-lg btn-light" href="product.php" role="button" style="border-radius: 20px; margin-right: 40px; margin-bottom: 25px;">Women's </a></p>
           </div>
         </div>
          </div>
@@ -398,7 +398,7 @@ Lace up some all new innovations for everyday speed.</p>
              <div class="container">
           <div class="carousel-caption">
 
-            <p><a class="btn btn-lg btn-light" href="#" role="button" style="border-radius: 20px; margin-right: 40px; margin-bottom: 25px;">Kids' </a></p>
+            <p><a class="btn btn-lg btn-light" href="product.php" role="button" style="border-radius: 20px; margin-right: 40px; margin-bottom: 25px;">Kids' </a></p>
           </div>
         </div>
          </div>
