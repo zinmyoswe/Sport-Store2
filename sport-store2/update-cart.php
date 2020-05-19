@@ -68,6 +68,6 @@ if($result){
 
 
 
-header("location: cart.php?sucsess=true");
+echo "<script>window.open('cart.php','_self')</script>";
 
 ?>

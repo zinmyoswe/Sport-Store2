@@ -5,7 +5,9 @@
 	$id = $_GET['id'];
 	$sql = $mysqli->query("DELETE FROM categories WHERE cat_id = $id");
 
-	header("location: cat-list2.php");
+
+	echo "<script>window.open('cat-list2.php','_self')</script>";
+
 
 
 

@@ -5,7 +5,8 @@
 	$id = $_GET['id'];
 	$sql = $mysqli->query("DELETE FROM brand WHERE brand_id = $id");
 
-	header("location: brand-list2.php");
+
+	echo "<script>window.open('brand-list2.php','_self')</script>";
 
 
 

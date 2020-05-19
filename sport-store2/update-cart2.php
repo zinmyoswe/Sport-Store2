@@ -40,6 +40,6 @@ if($result){
 
 
 
-header("location:cart.php");
+echo "<script>window.open('cart.php','_self')</script>";
 
 ?>

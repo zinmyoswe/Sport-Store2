@@ -11,7 +11,7 @@
 
 	
 
-	header("location: cat-list.php");
+	echo "<script>window.open('cat-list.php','_self')</script>";
 
 ?>
 

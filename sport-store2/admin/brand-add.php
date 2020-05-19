@@ -14,7 +14,7 @@
 	$query = $mysqli->query("INSERT INTO brand(brand_name,brand_cover,created_date)
 			VALUES ('$name','$cover',NOW())");
 	
-	header("location: brand-list.php");
+	echo "<script>window.open('brand-list.php','_self')</script>";
 
 ?>
 
