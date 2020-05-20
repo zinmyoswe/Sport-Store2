@@ -18,7 +18,7 @@ SIGN UP FOR NEWS & GET <b style="font-size: 23px;">15% OFF</b></h4>
                 <input type="email" name="" placeholder="YOUR EMAIL ADDRESS" class="form-control">
             </div>
             <br><br><br><br>
-            <p style="font-size: 14px;">By clicking the "Sign up" button, I confirm I am over 13 years of age.
+            <p style="font-size: 14px;" class="foot_con">By clicking the "Sign up" button, I confirm I am over 13 years of age.
 
 Sign me up for the adidas emails, featuring exclusive offers, latest product info, news about upcoming events and more. Please see our <a href=""> Terms and Conditions</a>  and <a href="">Privacy Policy</a> Privacy Policy for more details. Selected products may be excluded from the 15% promotion.</p>
         </div>

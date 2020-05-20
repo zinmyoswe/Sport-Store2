@@ -108,6 +108,149 @@ h4{
   width: 470px;
 
 }
+
+/*Index Slide Responsive*/
+
+@media (min-width: 992px){
+  .wrap-side-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel-item .xl-text2 {
+    font-size: 60px;
+  }
+
+   /*sport_store_add_1 section*/
+  #sport_store_add_1 img{
+    width: 100%;
+    height: 504px;
+    margin-left: 0 !important;
+    padding: 6px;
+  }
+
+    /*sport_store_add_2 section*/
+  #sport_store_add_2 img{
+    width: 100%;
+    height: 504px;
+    margin-left: 0 !important;
+    padding: 6px;
+  }
+
+   .caro3_3{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  }
+.caro3{
+  margin: 0 !important;
+
+
+}
+.caro3_img{
+  height: 504px;
+  width: 350px;
+  padding: 4px;
+}
+}
+
+@media (max-width: 768px) {
+ 
+
+  /*.carousel-item img {
+    height: 470px;
+    width: 100%;
+  }*/
+
+
+}
+
+@media (max-width: 576px) {
+
+  .carousel-item  {
+    font-size: 40px;
+  }
+
+  .carousel-item  {
+    font-size: 16px;
+  }
+
+  .carousel-inner{
+    height: 400px;
+  }
+
+  .carousel-item img {
+    height: 370px;
+
+  }
+
+   .carousel-item h1 {
+    font-size: 25px;
+  }
+  .carousel-item p {
+    font-size: 12px !important;
+  }
+
+  .carousel-item p a{
+    font-size: 12px !important;
+    
+  }
+  .carousel-caption{
+   margin-bottom: 130px !important;
+  }
+
+  /*sport_store_add_1 section*/
+  #sport_store_add_1 img{
+    width: 100%;
+    height: 504px;
+    margin-left: 0 !important;
+    padding: 12px;
+  }
+
+    /*sport_store_add_2 section*/
+  #sport_store_add_2 img{
+    width: 100%;
+    height: 504px;
+    margin-left: 0 !important;
+    padding: 12px;
+  }
+
+  .caro3_3{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  }
+.caro3{
+  margin: 0 !important;
+
+
+}
+.caro3_img{
+  width: 100%;
+  height: 504px;
+  padding: 4px;
+}
+
+/*feature_categories_add*/
+#feature_categories_add{
+   padding: 4px;
+}
+
+#feature_categories_add img{
+    display: block;
+    width: 100%;
+    
+}
+
+.img_feature h2{
+    padding: 20px;
+}
+  
+  
+  /*footer*/
+  .foot_con{
+    display: none;
+  }
+}
     </style>
     <!-- Custom styles for this template -->
    <main role="main">
@@ -125,7 +268,7 @@ h4{
         <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/running-fw19-rfto-educate-hp-lf-mh-medium-d_tcm221-356981.jpg" alt="" width="100%" height="100%" fill="#777">
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1 style="color: #000; font-weight: 600;">RUN FOR THE OCEANS</h1>
+            <h1 style="color: #000; font-weight: 600;" cl>RUN FOR THE OCEANS</h1>
             <p style="color: #000;">It's time to take action against marine plastic pollution. Rally your <br>friends to join the movement.</p>
             <p><a class="btn btn-lg btn-dark" href="product.php" role="button" style="margin-bottom: 160px">LEARN MORE <i class="fa fa-arrow-right"></i></a></p>
           </div>
@@ -184,8 +327,9 @@ waves in clean monochrome colourways.</p>
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
  <!--  {{-- ======================= start of addias ==================== --}} -->
+ <section id="sport_store_add_1">
 <div class="row">
-        <div class="col-md-6 col-xs-12 col-sm-12">
+        <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
             <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/MOVED_OVER_tcm221-363900.jpg" width="700px" height="500px" style="margin-left: 50px">
 
               <div class="container">
@@ -197,7 +341,7 @@ waves in clean monochrome colourways.</p>
         </div>
 
         </div>
-        <div class="col-md-6 col-xs-12 col-sm-12">
+        <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
             <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/originals-fw19-hoc-drop1-tease-hp-teaser-large-2up-ee5790-m-t_v2_tcm221-364940.jpg" width="700px" height="500px">
 
               <div class="container">
@@ -209,9 +353,11 @@ waves in clean monochrome colourways.</p>
         </div>
         </div>
     </div>
+    </section>
     <br><br>
    <!--  {{-- ======================= end of addias ==================== --}} -->
    <!--  {{-- ======================= start of FEATURED CATEGORIES ==================== --}} -->
+   <section id="feature_categories_add">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -294,9 +440,12 @@ waves in clean monochrome colourways.</p>
             </div>
         </div>
     </div>
+    </section>
     <br>
    <!--  {{-- ======================= end of FEATURED CATEGORIES ==================== --}} -->
     <!-- {{-- ======================= start of addias 2 ==================== --}} -->
+
+    <section id="sport_store_add_2">
     <div class="row">
         <div class="col-md-6 col-xs-12 col-sm-12">
             <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enGB/Images/teaser-c-Adidas_Swim_Amphi-mobile_background_image_tcm143-341615.jpg" width="700px" height="500px" style="margin-left: 50px">
@@ -320,7 +469,7 @@ waves in clean monochrome colourways.</p>
         </div>
         </div>
     </div>
-
+    </section>
 
     <br><br>
     <!-- {{-- ======================= end of addias 2 ==================== --}} -->
@@ -368,7 +517,7 @@ Lace up some all new innovations for everyday speed.</p>
 
    <div class="caro3_3">
     <div class="row">
-      <div class="col-lg-4 mb-3">
+      <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
          <div class="caro3">
            <img src="https://c.static-nike.com/a/images/f_auto/w_1536,c_limit/ebni4cssccl4rvr0fgeb/homepage-apla-xa.jpg" class="caro3_img">
            <div class="container">
@@ -380,7 +529,7 @@ Lace up some all new innovations for everyday speed.</p>
          </div>
       </div>
 
-       <div class="col-lg-4 mb-3">
+       <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
          <div class="caro3">
            <img src="https://c.static-nike.com/a/images/f_auto/w_1536,c_limit/xkh1zz53gxufllifu6yd/homepage-apla-xa.jpg" class="caro3_img">
              <div class="container">
@@ -392,7 +541,7 @@ Lace up some all new innovations for everyday speed.</p>
          </div>
       </div>
 
-       <div class="col-lg-4 mb-3">
+       <div class="col-lg-4 col-sm-12 col-xs-12 mb-3">
          <div class="caro3">
            <img src="https://c.static-nike.com/a/images/f_auto/w_1536,c_limit/rl9h6expvyvrv6gwbzr2/homepage-apla-xa.jpg" class="caro3_img">
              <div class="container">
