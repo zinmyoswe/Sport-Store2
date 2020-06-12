@@ -10,6 +10,6 @@ $sql = "DELETE FROM cart WHERE product_id=$id and customer='$email'";
 $run = mysqli_query($mysqli,$sql);
 
 
-header("location: cart.php");
+echo "<script>window.open('cart.php','_self')</script>";
 
 ?>
