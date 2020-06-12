@@ -27,14 +27,12 @@
 ?>
 <style type="text/css">
 	/*sidebar*/
-.haha p strong i{
-  font-size: 11px;
-}
+
 .haha p strong{
-  font-size: 11px;
+  font-size: 14px;
 }
 .haha a{
-  font-size: 11px;
+  font-size: 14px;
 }
 .dash{
   list-style: none;
@@ -81,14 +79,19 @@
             ?>
           
           
-              <div class="col-md-6">
+              <div class="col-md-12">
               <table class="table haha">
               <tr>
-                <td><img src="admin/cover/<?php echo $obj->cover ?>" width="110" height="140"/></td>
+                <td><img src="admin/cover/<?php echo $obj->cover ?>" height="130"/></td>
                 <td>
-                <p><strong><i><a href="detail.php?id=<?php echo  $obj->id ?>"><?php echo $obj->product_name ?></a></i></strong></p>
+                <p><strong><a href="detail.php?id=<?php echo  $obj->id ?>"><?php echo $obj->product_name ?></a></strong></p>
                 <p><strong>US$ <?php echo  $obj->price ?></strong></p>
                 <a href="">Remove</a>
+
+                </td>
+                <td></td>
+                <td></td>
+                <td>
                 <?php if($obj->qty < 7 && $obj->qty > 0 ){ ?>
                 <span class='badge badge-warning' style='margin-top: 2px;'>Low In Stock</span>
                 <?php }elseif($obj->qty == 0){ ?>
@@ -100,12 +103,12 @@
               <?php if($obj->qty < 5){ ?>
                   <img src="image/bestseller.png" width="85" height="18" style="margin-left: 2px;">
               <?php }  ?>
-              <hr>
+              
                 <form method="post" action="detail_add.php" enctype="multipart/form-data">
               
                 <input type="hidden" name="id" value="<?php echo $obj->id?>">
                 <?php if($obj->qty > 0){ ?>
-                <input type="submit" name="submit" value="Add To Cart" style="clear:both; background: #48c9b0; border: none; color: #fff; font-size: 11px; padding: 10px; cursor: pointer;" class="btn btn-primary pull-right" />
+                <input type="submit" name="submit" value="Add To Cart"  class="btn btn-dark float-right" />
                 </form>
                 <?php }else{ ?>
                   
