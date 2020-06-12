@@ -33,7 +33,7 @@ $action = $_GET['action'];
 //   }
 
 
-print_r($_SESSION);
+// print_r($_SESSION);
 
 if($action === 'empty')
   unset($_SESSION['cart']);

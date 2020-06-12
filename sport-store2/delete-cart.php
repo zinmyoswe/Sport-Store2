@@ -14,6 +14,6 @@ if($run){
   echo "error";
 }
 unset($_SESSION['cart']);
-header("location: cart.php");
+echo "<script>window.open('cart.php','_self')</script>";
 
 ?>
