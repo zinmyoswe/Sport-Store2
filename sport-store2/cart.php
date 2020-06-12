@@ -216,7 +216,9 @@
         }
 
         else {
-          echo "<div class='alert alert-danger'><span class='fa fa-exclamation'> You have no items in your shopping cart.</span></div>";
+          echo "<div class='alert alert-dark'><span class='fa fa-exclamation'> You have no items in your shopping cart</span></div><br>
+          <a href='product.php' style='margin-right: 8px' class='btn btn-dark'>Continue Shopping</a>
+          ";
         }
 
 
