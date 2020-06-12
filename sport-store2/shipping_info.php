@@ -185,7 +185,7 @@ a:hover{
               </div>
               <div class="col-md-3 mb-3">
                 <label for="zip">Zip</label>
-                <input type="text" name="zip" class="form-control" id="zip" placeholder="" required>
+                <input type="text" name="zip" class="form-control" id="zip" placeholder="90001" required>
                 <div class="invalid-feedback">
                   Zip code required.
                 </div>

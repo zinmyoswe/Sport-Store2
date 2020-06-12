@@ -1,25 +1,24 @@
-
 <?php
-  error_reporting(0);
   session_start();
+  error_reporting(0);
   include('confs/config.php');
+  // include('function/function.php');
   
+  include('001header.php');
+  include('004navbar.php');
+  $customer = $_SESSION['email']; 
   
-
   $id = $_REQUEST['id'];
   
   $sql = "SELECT * FROM shipping where shipping_id=$id";
   $run =mysqli_query($mysqli,$sql);
-  while($row = mysqli_fetch_assoc($run)){
+  $row = mysqli_fetch_assoc($run);
   $_SESSION['shipping'] = $row['shipping_id'];
-
-?>
-
-<?php } ?>
-<?php include('001header.php'); ?>
-    <?php include('004navbar.php'); ?> 
-   
-    <br><br>
+  
+  ?>
+  
+  
+  <br><br>
 
 
 <style type="text/css">
@@ -320,7 +319,6 @@ a:hover{
  
     </div>
      <!-- --------------col-md-8 order-md-1 end ------------------ -->
-
      
      <div class="col-md-4 order-md-2 mb-4">
             <div class="cart_sidebar">
@@ -365,19 +363,13 @@ a:hover{
                 </div>
             </div> <!-- {{-- cart_sidebar end --}} -->
             <br>
-
+            
              <!-- {{--    Coupon start --}} -->
    <div class="pay_fr" >
 
     <div class="pay_in">
        
-   <?php 
-      include('confs/config.php'); 
-      $shipping = $_SESSION['shipping'];
-      $sql = "SELECT * FROM shipping WHERE shipping_id = $shipping";
-      $run = mysqli_query($mysqli,$sql);
-      $row = mysqli_fetch_assoc($run);
-      ?>
+ 
       <div class="shipping_inner">
         <div class="shipping_inner_style">
       <b>SHIPPING ADDRESS</b><br>
@@ -400,8 +392,8 @@ a:hover{
 </div>
   <!--   {{--    Coupon end --}} -->
     <br>
-
-<div class="ORDER DETAILS">
+    
+    <div class="ORDER DETAILS">
         <h4 style="font-weight: 600; font-size: 22px;">ORDER DETAILS</h4>
 
                <?php
@@ -498,7 +490,7 @@ a:hover{
 <style type="text/css">
 
 h3{
-	font-family: AdineuePRO,Helvetica,Verdana,sans-serif;
+  font-family: AdineuePRO,Helvetica,Verdana,sans-serif;
 font-style: normal;
 color: #000;
 font-size: 18px;
@@ -558,7 +550,6 @@ color: #000;
 
 </body>
 </html>
-
 
 
 
