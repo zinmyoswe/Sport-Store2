@@ -499,7 +499,7 @@ $(document).ready(function(){
             <a href="add_fav.php?id=<?php echo $row_r['id']; ?>"  style="margin-bottom: 3px;"> <span class="fa fa-heart" style="color: #fff; background-color: #000; width: 25px; height: 25px; padding: 5px; border-radius: 2px;"></span> add to whilist</a>
 
         <?php }else{ ?>
-            <a href="dashboard.php" style="margin-bottom: 3px;"><span class="fa fa-heart"></span> In whilist</a>
+            <a href="dashboard.php" class="btn btn-light btn-lg btn-block"><span class="fa fa-heart"></span> In whilist</a>
         
         <?php } ?>
     

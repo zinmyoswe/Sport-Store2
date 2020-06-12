@@ -26,6 +26,6 @@ print_r($_SESSION);
   mysqli_query($mysqli,$sql2);
 
   
-  echo "<script>window.open('detail.php?id=$id','_self')</script>";
+  echo "<script>window.open('detail2.php?id=$id','_self')</script>";
 
 }
