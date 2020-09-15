@@ -99,6 +99,13 @@ h4{
     text-transform: uppercase;
     font-family: 'adiBlack',Arial,Helvetica,Verdana,sans-serif;
 }
+
+@media (max-width: 576px) {
+
+  .foot_con  {
+    display: none;
+  }
+}
     </style>
   <!-- FOOTER2 -->
   <footer class="container">
